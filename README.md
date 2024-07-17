@@ -13,7 +13,7 @@ This study introduced a machine learning (ML)-based prognosis model for young pa
   2. Gradient Boost Survival Analysis
   3. Extra Survival Tree
   4. Penalized Cox proportional hazards with lasso
-  5. Penalized Cox proportional hazards with and ElasticNet
+  5. Penalized Cox proportional hazards with ElasticNet
 - **Model Prediction:** The models predict prognosis with comorbidities at 5 years for young (aged < 50) and old patient (aged > 50) respectively.
 - **Comparative analysis:** variables preferred by each machine learning algorithms in predicting adverse outcomes in young and old patients with BC
 - **Model Evaluation:** The models' performance is evaluated using the C-index (Feature Importances.
