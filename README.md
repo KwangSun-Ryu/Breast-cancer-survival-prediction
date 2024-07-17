@@ -15,8 +15,9 @@ This study aims to develop a predictive model for mortality in young patients wi
   2. Gradient Boost Survival Analysis
   3. Extra Survival Tree
   4. Penalized Cox proportional hazards with lasso and ElasticNet
-- **Mortality Prediction:** The models predict mortality at 5 years for young and old patient respectively. 
-- **Model Evaluation:** The models' performance is evaluated using the C-index.
+- **Model Prediction:** The models predict prognosis with comorbidities at 5 years for young (aged < 50) and old patient (aged > 50) respectively.
+- **Comparative analysis:** variables preferred by each machine learning algorithms in predicting adverse outcomes in young and old patients with BC
+- **Model Evaluation:** The models' performance is evaluated using the C-index (Feature Importances.
 
 **Description of .py files**
 - data_preprocessing.py : Use the data_preprocessing.py script to clean and preprocess the dataset.
@@ -26,7 +27,7 @@ This study aims to develop a predictive model for mortality in young patients wi
 **Experiemnts**
 - Test.ipynb: Jupyter notebook that includes the steps for running all experiments and validating the results.
 
-  ### Installation
+### Installation
 
 To use this project, you need to have Python installed along with the following libraries:
 - pandas
