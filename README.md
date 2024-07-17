@@ -17,3 +17,15 @@ This study aims to develop a predictive model for mortality in young patients wi
   4. Penalized Cox proportional hazards with lasso and ElasticNet
 - **Mortality Prediction:** The models predict mortality at 5 years for young and old patient respectively. 
 - **Model Evaluation:** The models' performance is evaluated using the C-index.
+
+**Description of .py files**
+- data_preprocessing.py : Use the data_preprocessing.py script to clean and preprocess the dataset.
+- survivalML.py : Use the survivalML.py script to develop and validate a survival machine learning model for predicting survival using the c-index with feature importance.
+- CoxPH.py : Use the CoxPH.py script to perform Cox Proportional Hazards analysis.
+
+**Experiemnts**
+- Test.ipynb: Jupyter notebook that includes the steps for running all experiments and validating the results.
+
+  ### Installation
+
+To use this project, you need to have Python installed along with the following libraries:
