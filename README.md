@@ -1,18 +1,10 @@
-# Breast-cancer-survival-prediction
-Prediction Model for Survival of Younger Patients with Breast Cancer (Based on Public Staging Database)
+# Prediction Model for Survival of Younger Patients with Breast Cancer Using the Breast Cancer Public Staging Database
+This study introduced a machine learning (ML)-based prognosis model for young patients with breast cancer (BC), incorporating comorbidities such as atrial fibrillation, chronic kidney disease, chronic obstructive pulmonary disease, diabetes mellitus, deep vein thrombosis, dyslipidemia, heart failure, hypertension, liver disease, myocardial infarction, peripheral vascular disease, and stroke. Additionally, we conducted a comparative analysis to identify variables favored by ML algorithms in predicting adverse outcomes in younger and older patients with BC
 
-# Predicting Mortality in Young Patients with Breast Cancer
-
-![FrameWork] 
 
 ### Description
 
 This study aims to develop a predictive model for mortality in young patients with breast cancer. Using machine learning techniques, we preprocess the data, extract important features, and build a model to predict outcomes.
-
-### Framework
-
-The figure below illustrates the framework of our study:
-![Figure1]()
 
 **Description of the Workflow:**
 - **Data Source:** The data is sourced from the CPSD (2013-2015).
@@ -22,7 +14,6 @@ The figure below illustrates the framework of our study:
   1. Random Survival Forest
   2. Gradient Boost Survival Analysis
   3. Extra Survival Tree
-  4. Cox PH
-  5. Cox Ph
+  4. Penalized Cox proportional hazards with lasso and ElasticNet
 - **Mortality Prediction:** The models predict mortality at 5 years for young and old patient respectively. 
 - **Model Evaluation:** The models' performance is evaluated using the C-index.
