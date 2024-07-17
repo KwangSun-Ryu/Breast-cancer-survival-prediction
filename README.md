@@ -29,3 +29,7 @@ This study aims to develop a predictive model for mortality in young patients wi
   ### Installation
 
 To use this project, you need to have Python installed along with the following libraries:
+- pandas
+- numpy
+- scikit-learn
+- scikit-survival
